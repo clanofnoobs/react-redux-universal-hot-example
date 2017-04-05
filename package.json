@@ -131,6 +131,8 @@
     "redux-async-connect": "^1.0.0-rc2",
     "redux-form": "^3.0.12",
     "redux-thunk": "^2.1.0",
+    "request": "^2.81.0",
+    "request-promise": "^4.2.0",
     "scroll-behavior": "^0.3.2",
     "serialize-javascript": "^1.1.2",
     "serve-favicon": "^2.3.0",
@@ -170,6 +172,7 @@
     "karma-phantomjs-launcher": "^0.2.1",
     "karma-sourcemap-loader": "^0.3.5",
     "karma-webpack": "^1.7.0",
+    "less-loader": "^2.2.3",
     "mocha": "^2.3.3",
     "node-sass": "^3.4.2",
     "phantomjs": "^1.9.18",
@@ -189,7 +192,8 @@
     "timekeeper": "0.0.5",
     "webpack": "^1.12.9",
     "webpack-dev-middleware": "^1.4.0",
-    "webpack-hot-middleware": "^2.5.0"
+    "webpack-hot-middleware": "^2.5.0",
+    "webpack-isomorphic-tools": "^2.6.6"
   },
   "engines": {
     "node": "5.6.0"

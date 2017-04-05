@@ -24,7 +24,6 @@ app.use(session({
 }));
 app.use(bodyParser.json());
 
-
 app.use((req, res) => {
   const splittedUrlPath = req.url.split('?')[0].split('/').slice(1);
 
@@ -36,6 +35,7 @@ app.use((req, res) => {
         if (result instanceof Function) {
           result(res);
         } else {
+          console.log(result);
           res.json(result);
         }
       }, (reason) => {
@@ -89,3 +89,4 @@ if (config.apiPort) {
 } else {
   console.error('==>     ERROR: No PORT environment variable has been specified');
 }
+
